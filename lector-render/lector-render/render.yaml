@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: lector-de-articulos
+    runtime: node
+    plan: free
+    buildCommand: echo "sin dependencias"
+    startCommand: node server.js
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: APP_PASSWORD
+        sync: false

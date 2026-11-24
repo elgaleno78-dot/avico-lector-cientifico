@@ -1,0 +1,9 @@
+{
+  "name": "lector-de-articulos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lee artículos en PDF por secciones, tradúcelos y analízalos con Claude",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
